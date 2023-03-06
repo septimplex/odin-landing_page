@@ -82,4 +82,55 @@ body{
     
 }
 
+.button:hover{
+    background-color: #305283;
+    border: #305283 5px solid;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+    background-color: #F9FAF8;
+    color: #222121;
+    align-items: center;
+}
+
+.team-grp{
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.title-team h2{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.container{
+    border: solid #3882F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;  
+    border-radius: 5px;
+    font-size: 15px;
+    word-spacing: 0.1em;
+    max-width:250px;
+    flex-shrink: 0;
+}
+
+.container p{
+    margin: 20px;
+}
+.container img{ 
+    max-width: 100px;
+    margin: 20px;
+}
+
+
 
