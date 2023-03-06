@@ -2,6 +2,8 @@ body{
     font-family: 'Roboto', sans-serif;
     display:flex;
     flex-direction: column;
+    background-color: #222121 ;
+    color: white;
     min-height: 100vh;
     margin: 0px;
     padding: 0px;
@@ -10,7 +12,6 @@ body{
 
 .header{
     display:flex;
-    background-color: black;
     justify-content: space-around;
     font-size: 18px;
     
@@ -27,7 +28,7 @@ body{
 
 
 .nav li{
-    border-left: white solid;
+    border-left: #E5E7EB solid;
     
 }
 
@@ -38,7 +39,47 @@ body{
     list-style: none;
     text-decoration: none;
     color: white;
+}
 
+.main{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px 5px;
+    gap: 10px;
+    
+}
+
+.left-side{
+    max-width: 500px;
+}
+
+
+.left-side h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.left-side h4{
+    font-size: 18px;
+    color: #E5E7EB;
+    word-spacing: 0.1em;
+}
+
+.right-side img{
+    max-width: 500px;
+}
+
+.button{
+    background-color: #3882F6;
+    color: white;
+    border: #3882F6 5px solid;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-weight: 900;
+    font-size: 15px;
+    
 }
 
 
