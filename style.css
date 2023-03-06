@@ -45,7 +45,7 @@ body{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 75px 5px;
+    padding: 75px 0px;
     gap: 10px;
     
 }
@@ -95,6 +95,7 @@ body{
     background-color: #F9FAF8;
     color: #222121;
     align-items: center;
+
 }
 
 .team-grp{
@@ -130,6 +131,77 @@ body{
 .container img{ 
     max-width: 100px;
     margin: 20px;
+}
+
+.contact{
+    display:flex; 
+    flex-direction: column;
+    padding: 100px 0px;
+    margin: 0px;
+    gap: 20px;
+    
+    
+}
+
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 50%;
+
+    
+}
+
+.quote q{
+    font-size: 26px;
+    font-style: italic;
+    font-weight: light;
+    color:#1F2937;
+    max-width: 50%;
+}
+.quote p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    height: 50%;  
+
+}
+
+.contact-container{
+    background-color: #3882F6;
+    color: white;
+    max-width: 80%;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+.text{
+    margin: 40px;
+}
+
+
+
+.sign-up button{
+    border: white solid 3px;
+    margin: 40px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 
